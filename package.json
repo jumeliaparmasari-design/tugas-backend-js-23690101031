@@ -1,0 +1,25 @@
+{
+  "name": "belajar.web",
+  "version": "1.0.0",
+  "description": "Selamat datang di repository Portofolio pribadi saya!  \r Website ini dibuat menggunakan **HTML**, **CSS**, dan **JavaScript** sebagai bagian dari pembelajaran pengembangan web.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumeliaparmasari-design/webdev-jumelia-portofolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jumeliaparmasari-design/webdev-jumelia-portofolio/issues"
+  },
+  "homepage": "https://github.com/jumeliaparmasari-design/webdev-jumelia-portofolio#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

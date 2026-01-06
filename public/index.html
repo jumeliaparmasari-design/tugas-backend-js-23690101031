@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Jumelia Parma Sari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+<header>
+    <div class="judul">
+        <h1>Portofolio Jumelia Parma Sari</h1>
+        <p>Mulai dari Tag (HTML), Wujudkan Mimpi Digitalmu.</p>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Saya</a></li>
+            <li><a href="#keahlian">Keahlian</a></li>
+            <li><a href="#proyek">Proyek</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+<div class="tema-container">
+    <button id="themeBtn">Ubah tema (Dark/Light)</button>
+
+</div>
+    <!-- 🔘 Tombol Interaktif -->
+    <div class="sapa-container">
+        <button id="sayHiBtn">Sapa Saya</button>
+        <p id="greeting"></p>
+    </div>
+</header>
+
+
+<main>
+
+    <!-- =======================
+         TENTANG SAYA
+    ======================= -->
+    <section id="tentang">
+        <div class="tentang-container">
+            <div class="foto">
+                <img src="imell.jpeg" alt="Foto Jumelia Parma Sari">
+            </div>
+
+            <div class="deskripsi">
+                <h2>Tentang Saya</h2>
+                <p>
+                    Halo, nama saya Jumelia Parma Sari biasa dipanggil Imel. 
+                    Saya mahasiswi Universitas Muhammadiyah Bone jurusan 
+                    Teknologi Pendidikan semester 5, dan sekarang sedang 
+                    mempelajari pengembangan web.
+                </p>
+
+                <div class="info-box">
+                    <h3>Informasi Pribadi</h3>
+                    <ul>
+                        <li>Nama: Jumelia Parma Sari</li>
+                        <li>Alamat: Desa Cani Sirenreng, Kec. Ulaweng</li>
+                        <li>Pendidikan: Universitas Muhammadiyah Bone</li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h3>Media Sosial</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/iimelll_" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/@jumeliaparmasari_?_t=ZS-tUEMt6NJS&_r=1" target="_blank">Tiktok</a></li>
+                        <li><a href="https://www.facebook.com/share/1A65kQdBQw/" target="_blank">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =======================
+         KEAHLIAN
+    ======================= -->
+    <section id="keahlian">
+        <h2>Keahlian</h2>
+
+        <div class="keahlian-container">
+            <div class="card">Microsoft Word</div>
+            <div class="card">Manajemen Waktu</div>
+        </div>
+    </section>
+
+
+    <!-- =======================
+         PROYEK
+    ======================= -->
+    <section id="proyek">
+        <h2>Proyek</h2>
+        <p>
+            Saya mampu menggunakan Microsoft Word untuk membuat tugas, 
+            laporan, dan dokumen lainnya.
+        </p>
+    </section>
+
+</main>
+
+<section id="kontak-form" style="padding: 40px 20px; background-color: #fff3cd; border-radius: 15px; margin: 20px auto; max-width: 800px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; color: #4e342e; margin-bottom: 20px;">API Contact Integration</h2>
+    <form action="/contact" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+        <div>
+            <label style="font-weight: bold;">Nama:</label>
+            <input type="text" name="name" placeholder="Minimal 3 karakter" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
+        </div>
+        <div>
+            <label style="font-weight: bold;">Pesan:</label>
+            <textarea name="message" placeholder="Minimal 10 karakter" rows="4" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc;"></textarea>
+        </div>
+        <button type="submit" style="background-color: #81c784; color: white; padding: 12px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">
+            Kirim ke Server
+        </button>
+    </form>
+  </section>
+
+<!-- =======================
+     FOOTER
+======================= -->
+<footer id="kontak">
+    <div class="kiri">
+        <h3>Kontak: <a href="mailto:jumeliaparmasari@gmail.com">jumeliaparmasari@gmail.com</a></h3>
+    </div>
+
+    <div class="kanan">
+        <p>&copy; 2025 Jumelia Parma Sari. Seluruh hak cipta dilindungi.</p>
+    </div>
+</footer>
+
+
+<!-- =======================
+     SCRIPT JS
+======================= -->
+<script src="script.js" defer></script>
+
+</body>
+</html>
